@@ -1,0 +1,8 @@
+2021-05-19 16:08:33,766 - src - __main__ - <module> - 11 - DEBUG - Calling module function.
+2021-05-19 16:08:33,767 - src - __main__ - <module> - 16 - ERROR - division by zero
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\__main__.py", line 13, in <module>
+    module.multiply(5, 0)
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\module.py", line 8, in multiply
+    return num1 / num2
+ZeroDivisionError: division by zero
