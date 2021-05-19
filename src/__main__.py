@@ -1,12 +1,8 @@
-import logging
-import sys
-
-from src.config import LOGGING_LEVEL
 from src import utils
+from src import module
 
 logger = utils.get_logger('src')
-
-from src import module
+logger.info('------------------------- NEW RUN --------------------------------------')
 
 logger.debug('Calling module function.')
 try:
