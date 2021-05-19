@@ -67,3 +67,30 @@ Traceback (most recent call last):
   File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\module.py", line 9, in multiply
     return num1 / num2
 ZeroDivisionError: division by zero
+2021-05-19 17:10:39,748 - src - __main__ - <module> - 12 - INFO - ------------------------- NEW RUN --------------------------------------
+2021-05-19 17:10:39,751 - src - __main__ - <module> - 16 - DEBUG - Calling module function.
+2021-05-19 17:10:39,751 - src - __main__ - <module> - 21 - ERROR - division by zero
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\__main__.py", line 18, in <module>
+    module.multiply(5, 0)
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\module.py", line 13, in multiply
+    return num1 / num2
+ZeroDivisionError: division by zero
+2021-05-19 17:17:56,727 - src - __main__ - <module> - 12 - INFO - ------------------------- NEW RUN --------------------------------------
+2021-05-19 17:17:56,731 - src - __main__ - <module> - 16 - DEBUG - Calling module function.
+2021-05-19 17:17:56,732 - src - __main__ - <module> - 21 - ERROR - division by zero
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\__main__.py", line 18, in <module>
+    module.multiply(5, 0)
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\module.py", line 13, in multiply
+    return num1 / num2
+ZeroDivisionError: division by zero
+2021-05-19 17:18:32,590 - src - __main__ - <module> - 12 - INFO - ------------------------- NEW RUN --------------------------------------
+2021-05-19 17:18:32,592 - src - __main__ - <module> - 16 - DEBUG - Calling module function.
+2021-05-19 17:18:32,593 - src - __main__ - <module> - 21 - ERROR - division by zero
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\__main__.py", line 18, in <module>
+    module.multiply(5, 0)
+  File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\module.py", line 13, in multiply
+    return num1 / num2
+ZeroDivisionError: division by zero

@@ -9,3 +9,7 @@ Logging here is configured to do the following:
 
 
 Followed the exampled from here https://docs.python.org/3/howto/logging-cookbook.html#using-logging-in-multiple-modules.   
+
+Минусы этого решения:
+1. В консоль печатается лог "NEW RUN" во время импорта вспомогательных модулей.
+2. В файлах `.log` вспомогательных модулей не всегда на будет понятно, из какого места была вызвана функция библиотеки.
