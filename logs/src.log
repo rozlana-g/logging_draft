@@ -1,6 +1,6 @@
-2021-05-19 16:24:07,110 - src - __main__ - <module> - 5 - INFO - ------------------------- NEW RUN --------------------------------------
-2021-05-19 16:24:07,111 - src - __main__ - <module> - 7 - DEBUG - Calling module function.
-2021-05-19 16:24:07,148 - src - __main__ - <module> - 12 - ERROR - division by zero
+2021-05-19 16:36:02,772 - src - __main__ - <module> - 5 - INFO - ------------------------- NEW RUN --------------------------------------
+2021-05-19 16:36:02,772 - src - __main__ - <module> - 7 - DEBUG - Calling module function.
+2021-05-19 16:36:02,772 - src - __main__ - <module> - 12 - ERROR - division by zero
 Traceback (most recent call last):
   File "C:\Users\user\Desktop\ML_work\1fc1e6bc02e1c6ce7e5ac523fed9568f\src\__main__.py", line 9, in <module>
     module.multiply(5, 0)
