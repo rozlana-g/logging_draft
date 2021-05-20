@@ -1,9 +1,7 @@
-import logging
-
 from src import utils
 
-logger = logging.getLogger(__name__)
-utils.configure_logger(logger)
+logger = utils.configure_logger(__name__)
+
 
 logger.info('------------------------- NEW RUN --------------------------------------')
 

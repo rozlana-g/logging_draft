@@ -1,12 +1,8 @@
-import logging
-import sys
 
-from src.config import LOGGING_LEVEL
 from src import utils
 
-logger = logging.getLogger('src')
-logger.setLevel(LOGGING_LEVEL)
-utils.configure_logger(logger)
+logger = utils.configure_logger('src')
+
 
 
 logger.info('------------------------- NEW RUN --------------------------------------')

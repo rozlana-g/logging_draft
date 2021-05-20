@@ -1,10 +1,10 @@
 import logging
 import sys
 
-from src.config import log_formatter
+from src.config import log_formatter, LOGGING_LEVEL
 
 
-def configure_logger(logger):
+def configure_logger(name, level=LOGGING_LEVEL):
     """
     Вообще,
         Child loggers propagate messages up to the handlers associated with their ancestor loggers.
@@ -14,10 +14,12 @@ def configure_logger(logger):
     Но так как я не хочу чтобы логи детей записывались туда же куда и лог главного логгера, то я ставлю proagate=False и
     настраиваю их заново.
 
-    :param logger:
+    :param name: str
     :return:
     """
 
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
     logger.propagate = False
     logger.handlers.clear()  # строчка не нужна если я только в одном месте делаю setup_applevel_logger(logger_name=APP_LOGGER_NAME)?
 
