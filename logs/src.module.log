@@ -1,0 +1,2 @@
+2021-05-20 20:13:32,985 - src.module - module - <module> - 6 - INFO - ------------------------- NEW RUN --------------------------------------
+2021-05-20 20:13:32,988 - src.module - module - multiply - 10 - DEBUG - Executing multiply function.
